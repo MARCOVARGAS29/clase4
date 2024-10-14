@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
- <style>
-    body{
-        margin: 0; 
-    }
-    .forma1{
-        background-color: green;
-        width: 100vw;
-        height: 100vh;
-        font-size: 3rem;
-        color:white;
-        font-weight: bolder;
-    }
-    .forma2{
-        background-color: red;
-        width: 100vw;
-        height: 100vh;
-        color:white;
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-    }
- </style>
+        body {
+            margin: 0;
+        }
+
+        .contenedor {
+            display:flex;
+            background-color: green;
+            padding: 25px;
+            
+        }
+
+        .uno {
+            background-color: red;
+            padding: 25px;
+        }
+        .dos{
+            background-color: white;
+            padding: 25px;
+
+        }
+    </style>
 </head>
 <body>
-    <div class="forma1">
-        Lorem ipsum dolor sit amet 
-    </div>
-    <div class="forma2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iure ut cum voluptas accusamus libero. Iste commodi explicabo quia aliquam, saepe porro, sint veritatis facilis consequuntur animi dicta, quisquam dolore?
+    <div class="contenedor">
+<div class="uno">Contenido 1</div>
+<div class="dos">Contenido 2</div>
     </div>
 </body>
 </html>
